@@ -5,7 +5,7 @@ namespace AlgorithmsAndStructures.SimpleTasks
 {
     class Turtle
     {
-        static void Main(string[] args)
+        public static void Solve(string[] args)
         {
             int h, w;
             string[] input = File.ReadAllLines("turtle.in");
