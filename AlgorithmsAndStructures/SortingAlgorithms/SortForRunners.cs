@@ -3,9 +3,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
-/// <summary>
-/// ПИЗДА КОНЯ БЛЯ
-/// </summary>
+
 namespace AlgorithmsAndStructures.SortingAlgorithms
 {
     class SortForRunners
