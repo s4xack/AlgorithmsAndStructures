@@ -6,7 +6,7 @@ namespace AlgorithmsAndStructures
     {
         static void Main(string[] args)
         {
-            SortingAlgorithms.MergeSort.Solve();
+            SortingAlgorithms.MergeSort<int>.SolveInt();
         }
     }
 }

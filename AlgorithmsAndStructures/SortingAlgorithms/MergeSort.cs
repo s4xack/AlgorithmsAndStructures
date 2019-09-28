@@ -5,9 +5,9 @@ using System.Linq;
 
 namespace AlgorithmsAndStructures.SortingAlgorithms
 {
-    class MergeSort
+    class MergeSort<Template> where Template: IComparable<Template>
     {
-        private static int[] MergeSorting (int[] needToSortArray)
+        private static Template[] MergeSorting (Template[] needToSortArray)
         {
             if (needToSortArray.Length == 1)
             {
@@ -17,16 +17,16 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
             return Merge(MergeSorting(needToSortArray.Take(middlePosition).ToArray()), MergeSorting(needToSortArray.Skip(middlePosition).ToArray()));
         }
 
-        private static int[] Merge(int[] leftArray, int[] rightArray)
+        private static Template[] Merge(Template[] leftArray, Template[] rightArray)
         {
             int leftIterator = 0;
             int rightIterator = 0;
-            int[] mergedArray = new int[leftArray.Length + rightArray.Length];
+            Template[] mergedArray = new Template[leftArray.Length + rightArray.Length];
             int mergedIterator = 0;
 
             while (leftIterator < leftArray.Length && rightIterator < rightArray.Length)
             {
-                if (leftArray[leftIterator] <= rightArray[rightIterator])
+                if (leftArray[leftIterator].CompareTo(rightArray[rightIterator]) <= 0)
                 {
                     mergedArray[mergedIterator] = leftArray[leftIterator++];
                 }
@@ -50,7 +50,7 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
             return mergedArray;
 
         }
-        public static void Main()
+        public static void SolveInt()
         {
             int n = Int32.Parse(Console.ReadLine());
             int[] array = new int[n];
@@ -59,7 +59,7 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
             {
                 array[i] = Int32.Parse(inputArray[i]);
             }
-            array = MergeSorting(array);
+            array = MergeSort<int>.MergeSorting(array);
             for (int i = 0; i < n; ++i)
             {
                 Console.Write(array[i] + " ");
