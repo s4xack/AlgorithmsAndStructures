@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Linq;
+using System.IO;
 
 namespace AlgorithmsAndStructures.SortingAlgorithms
 {
@@ -50,7 +49,7 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
             return mergedArray;
 
         }
-        public static void SolveInt()
+        public static void Solve()
         {
             int n = Int32.Parse(Console.ReadLine());
             int[] array = new int[n];
@@ -60,11 +59,14 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
                 array[i] = Int32.Parse(inputArray[i]);
             }
             array = MergeSort<int>.MergeSorting(array);
-            for (int i = 0; i < n; ++i)
-            {
-                Console.Write(array[i] + " ");
-            }
-            Console.WriteLine();
+            Console.WriteLine(String.Join(" ", array));
+        }
+    }
+    class StartMergeSort
+    {
+        public static void Solve()
+        {
+            MergeSort<int>.Solve();
         }
     }
 }
