@@ -20,6 +20,6 @@
 
 1. [Сортировка](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/MergeSort.cs)
 2. [Соревнования по бегу](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/SortForRunners.cs)
-3. [null]()
+3. [Число инверсий](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/InversionsCount.cs)
 4. [null]()
 5. [null]()
