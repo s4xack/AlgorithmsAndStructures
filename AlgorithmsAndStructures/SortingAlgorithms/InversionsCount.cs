@@ -75,7 +75,7 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
             }
         }
     }
-    
+
     class StartInversionsCounter
     {
         public static void Solve()

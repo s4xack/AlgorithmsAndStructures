@@ -3,16 +3,16 @@ using System.Linq;
 
 namespace AlgorithmsAndStructures.SortingAlgorithms
 {
-    class MergeSort<Template> where Template: IComparable<Template>
+    class MergeSorter<Template> where Template: IComparable<Template>
     {
-        private static Template[] MergeSorting (Template[] needToSortArray)
+        private static Template[] MergeSort (Template[] needToSortArray)
         {
             if (needToSortArray.Length == 1)
             {
                 return needToSortArray;
             }
             int middlePosition = needToSortArray.Length / 2;
-            return Merge(MergeSorting(needToSortArray.Take(middlePosition).ToArray()), MergeSorting(needToSortArray.Skip(middlePosition).ToArray()));
+            return Merge(MergeSort(needToSortArray.Take(middlePosition).ToArray()), MergeSort(needToSortArray.Skip(middlePosition).ToArray()));
         }
 
         private static Template[] Merge(Template[] leftArray, Template[] rightArray)
@@ -57,7 +57,7 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
             {
                 array[i] = Int32.Parse(inputArray[i]);
             }
-            array = MergeSort<int>.MergeSorting(array);
+            array = MergeSorter<int>.MergeSort(array);
             Console.WriteLine(String.Join(" ", array));
         }
     }
@@ -65,7 +65,7 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
     {
         public static void Solve()
         {
-            MergeSort<int>.Solve();
+            MergeSorter<int>.Solve();
         }
     }
 }
