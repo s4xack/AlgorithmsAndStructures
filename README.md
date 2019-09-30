@@ -22,4 +22,4 @@
 2. [Соревнования по бегу](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/SortForRunners.cs)
 3. [Число инверсий](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/InversionsCount.cs)
 4. [Анти-QuickSort](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/AntiQuickSort.cs)
-5. [null]()
+5. [К-ая порядковая статистика](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/KStaticstic.cs)
