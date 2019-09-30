@@ -6,9 +6,9 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
 {
     class AntiQuickSort
     {
-        private static void Swap(ref int firstElement, ref int secondElement)
+        private static void Swap<Template>(ref Template firstElement, ref Template secondElement)
         {
-            int swapHelper = firstElement;
+            Template swapHelper = firstElement;
             firstElement = secondElement;
             secondElement = swapHelper;
         }
