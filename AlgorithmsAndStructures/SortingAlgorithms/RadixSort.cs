@@ -45,7 +45,7 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
             return array;
         }
 
-        public static void Main()
+        public static void Solve()
         {
             int n, m, k;
             string[] input = Console.ReadLine().Split();
