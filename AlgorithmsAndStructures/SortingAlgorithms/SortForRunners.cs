@@ -7,14 +7,14 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
 {
     class SortForRunners
     {
-        private static List<string> MergeSorting(List<string> needToSortArray)
+        private static List<string> Sort(List<string> needToSortArray)
         {
             if (needToSortArray.Count() == 1)
             {
                 return needToSortArray;
             }
             int middlePosition = needToSortArray.Count() / 2;
-            return Merge(MergeSorting(needToSortArray.Take(middlePosition).ToList()), MergeSorting(needToSortArray.Skip(middlePosition).ToList()));
+            return Merge(Sort(needToSortArray.Take(middlePosition).ToList()), Sort(needToSortArray.Skip(middlePosition).ToList()));
         }
 
         private static List<string> Merge(List<string> leftArray, List<string> rightArray)
@@ -74,7 +74,7 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
                     }
                 }
             }
-            List<string> array = MergeSorting(names.Keys.ToList());
+            List<string> array = Sort(names.Keys.ToList());
             string lastCountry = string.Empty; 
             using (var outputFile = new StreamWriter("race.out"))
             {

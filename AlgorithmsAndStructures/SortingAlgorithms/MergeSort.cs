@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace AlgorithmsAndStructures.SortingAlgorithms
 {
-    class MergeSorter<Template> where Template: IComparable<Template>
+    class Sort<Template> where Template: IComparable<Template>
     {
         private static Template[] MergeSort (Template[] needToSortArray)
         {
@@ -57,7 +57,7 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
             {
                 array[i] = Int32.Parse(inputArray[i]);
             }
-            array = MergeSorter<int>.MergeSort(array);
+            array = Sort<int>.MergeSort(array);
             Console.WriteLine(String.Join(" ", array));
         }
     }
@@ -65,7 +65,7 @@ namespace AlgorithmsAndStructures.SortingAlgorithms
     {
         public static void Solve()
         {
-            MergeSorter<int>.Solve();
+            Sort<int>.Solve();
         }
     }
 }
