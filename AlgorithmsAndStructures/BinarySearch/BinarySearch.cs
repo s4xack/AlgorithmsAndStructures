@@ -7,11 +7,11 @@ namespace AlgorithmsAndStructures.BinarySearch
 {
     class BinarySearch
     {
-        private static int BinSearch(int[] array, int searchElement, bool leftSearch)
+        private static int BinSearch(int[] array, int searchValue, bool leftSearch)
         {
             const int notFound = -1;
 
-            if (array[0] > searchElement || array[array.Length - 1] < searchElement)
+            if (array[0] > searchValue || array[array.Length - 1] < searchValue)
             {
                 return notFound;
             }
@@ -22,7 +22,7 @@ namespace AlgorithmsAndStructures.BinarySearch
             while (rightPointer - leftPointer > 1)
             {
                 int midPointer = (rightPointer + leftPointer) / 2;
-                if (leftSearch ? array[midPointer] < searchElement : array[midPointer] <= searchElement)
+                if (leftSearch ? array[midPointer] < searchValue : array[midPointer] <= searchValue)
                 {
                     leftPointer = midPointer;
                 }
@@ -32,7 +32,7 @@ namespace AlgorithmsAndStructures.BinarySearch
                 }
             }
 
-            if (leftSearch ? array[rightPointer] == searchElement : array[rightPointer - 1] == searchElement)
+            if (leftSearch ? array[rightPointer] == searchValue : array[rightPointer - 1] == searchValue)
             {
                 return leftSearch ? rightPointer + 1 : rightPointer;
             }
