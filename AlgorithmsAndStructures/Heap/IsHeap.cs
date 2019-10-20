@@ -7,7 +7,7 @@ namespace AlgorithmsAndStructures.Heap
 {
     class IsHeap
     {
-        public static void Main()
+        public static void Solve()
         { 
             int n;
             Int64[] array;
