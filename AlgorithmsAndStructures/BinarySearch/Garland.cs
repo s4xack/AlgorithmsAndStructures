@@ -45,20 +45,15 @@ namespace AlgorithmsAndStructures.BinarySearch
         public static void Solve()
         {
             string[] input;
-            //using (var inputFile = new StreamReader("garland.in"))
-            {
-                input = Console.ReadLine()?.Split();
-            }
+            input = Console.ReadLine()?.Split();
+
             int bulbsCount = int.Parse(input[0]);
             double firstBulbHeight = double.Parse(input[1].Replace(".", ","));
             double[] bulbsHeight = new double[bulbsCount];
             bulbsHeight[0] = firstBulbHeight;
 
             BinSearch(bulbsHeight, 0.00, firstBulbHeight, bulbsCount);
-            //using (var outputFile =new StreamWriter("garland.out"))
-            {
-                Console.WriteLine($"{(int)(answer)}.{(int)(answer * 100 % 100)}");
-            }
+            Console.WriteLine($"{(int)(answer)}.{(int)(answer * 100 % 100)}");
         }
     }
 }
