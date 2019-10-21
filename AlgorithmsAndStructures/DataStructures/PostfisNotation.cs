@@ -39,10 +39,9 @@ namespace AlgorithmsAndStructures.DataStructures
             }
         }
 
-        public static void Main()
+        public static void Solve()
         {
             string[] sequence = File.ReadAllText("postfix.in").Split();
-            //string[] sequence = Console.ReadLine().Split();
             Stack stack = new Stack();
 
             for (int i = 0; i < sequence.Length; ++i)
@@ -76,7 +75,6 @@ namespace AlgorithmsAndStructures.DataStructures
 
             int result = stack.Top();
             File.WriteAllText("postfix.out", result.ToString());
-            //Console.WriteLine(result.ToString());
         }
     }
 }
