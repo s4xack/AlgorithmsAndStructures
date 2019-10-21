@@ -29,3 +29,11 @@
 3. [Пирамида ли?](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/Heap/IsHeap.cs) [*(C++)*](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/Heap/IsHeap.cpp)
 4. [Пирамидальная сортировка](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/HeapSort.cs)
 5. [Цифровая сортировка](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/RadixSort.cs)
+
+## [Лабораторная работа №4](http://neerc.ifmo.ru/teaching/disalgo/problems/problems4.pdf)
+
+1. [Стек](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/DataStructures/Stack.cs)
+2. [Очередь](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/DataStructures/Queue.cs)
+3. [Правильная скобочная последовательность](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/DataStructures/CorrectBracketSequence.cs)
+4. [Постфиксная запись](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/DataStructures/PostfixNotation.cs)
+5. [Приоритетная очередь](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/DataStructures/PriorityQueue.cs)
