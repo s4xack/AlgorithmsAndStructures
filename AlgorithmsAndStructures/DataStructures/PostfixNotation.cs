@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AlgorithmsAndStructures.DataStructures
 {
-    class PostfisNotation
+    class PostfixNotation
     {
         class Stack
         {
