@@ -26,7 +26,7 @@
 
 1. [Двоичный поиск](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/BinarySearch/BinarySearch.cs)
 2. [Гирлянда](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/BinarySearch/Garland.cs) [*(C++)*](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/BinarySearch/Garland.cpp)
-3. [Пирамида ли?](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/Heap/IsHeap.cs) [*(C++)*](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/Heap/IsHeap.cpp)
+3. [Пирамида ли?](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/DataStructures/IsHeap.cs) [*(C++)*](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/DataStructures/IsHeap.cpp)
 4. [Пирамидальная сортировка](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/HeapSort.cs)
 5. [Цифровая сортировка](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/RadixSort.cs)
 
