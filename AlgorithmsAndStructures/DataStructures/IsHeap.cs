@@ -13,8 +13,8 @@ namespace AlgorithmsAndStructures.DataStructures
             Int64[] array;
             using (var inputFile = new StreamReader("isheap.in"))
             {
-                n = int.Parse(Console.ReadLine());
-                array = Console.ReadLine()?.Split(' ').Select(Int64.Parse).ToArray();
+                n = int.Parse(inputFile.ReadLine());
+                array = inputFile.ReadLine()?.Trim().Split(' ').Select(Int64.Parse).ToArray();
             }
             bool isHeap = true;
             
@@ -28,7 +28,7 @@ namespace AlgorithmsAndStructures.DataStructures
             }
             using (var outputFile = new StreamWriter("isheap.out"))
             {
-                Console.WriteLine(isHeap ? "YES" : "NO");
+                outputFile.WriteLine(isHeap ? "YES" : "NO");
             }
         }
     }
