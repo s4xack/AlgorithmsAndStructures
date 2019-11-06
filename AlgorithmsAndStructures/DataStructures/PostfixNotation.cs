@@ -23,7 +23,7 @@ namespace AlgorithmsAndStructures.DataStructures
                 return size;
             }
 
-            public void Add(int element)
+            public void Push(int element)
             {
                 data[size++] = element;
             }
@@ -55,20 +55,20 @@ namespace AlgorithmsAndStructures.DataStructures
                     case "+":
                         b = stack.Pop();
                         a = stack.Pop();
-                        stack.Add(a + b);
+                        stack.Push(a + b);
                         break;
                     case "-":
                         b = stack.Pop();
                         a = stack.Pop();
-                        stack.Add(a - b);
+                        stack.Push(a - b);
                         break;
                     case "*": 
                         b = stack.Pop();
                         a = stack.Pop();
-                        stack.Add(a * b);
+                        stack.Push(a * b);
                         break;
                     default:
-                        stack.Add(int.Parse(element));
+                        stack.Push(int.Parse(element));
                         break;
                 }
             }

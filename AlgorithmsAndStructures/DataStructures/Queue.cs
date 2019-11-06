@@ -28,7 +28,7 @@ namespace AlgorithmsAndStructures.DataStructures
             }
         }
 
-        public void Add(Int64 element)
+        public void Push(Int64 element)
         {
             data[end] = element;
             end = (end + 1) % maxDataSize;
@@ -65,7 +65,7 @@ namespace AlgorithmsAndStructures.DataStructures
                         if (commands[0] == "+")
                         {
                             Int64 newElement = Int64.Parse(commands[1]);
-                            queue.Add(newElement);
+                            queue.Push(newElement);
                         }
                         else
                         {

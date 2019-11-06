@@ -28,7 +28,7 @@ namespace AlgorithmsAndStructures.DataStructures
                 return Size() == 0;
             }
 
-            public void Add(char element)
+            public void Push(char element)
             {
                 data[size++] = element;
             }
@@ -51,7 +51,7 @@ namespace AlgorithmsAndStructures.DataStructures
             {
                 if (sequence[i] == '(' || sequence[i] == '[')
                 {
-                    stack.Add(sequence[i]);
+                    stack.Push(sequence[i]);
                 }
                 else if (!stack.IsEmpty())
                 {
