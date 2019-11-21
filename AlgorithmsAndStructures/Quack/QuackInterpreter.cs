@@ -151,7 +151,7 @@ namespace AlgorithmsAndStructures.Quack
 
     class SolutionQuack
     {
-        public static void Main()
+        public static void Solve()
         {
             List<string> commands = new List<string>();
             while (true)
