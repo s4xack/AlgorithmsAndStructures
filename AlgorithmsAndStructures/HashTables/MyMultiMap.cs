@@ -191,7 +191,7 @@ using System.IO;
     }
     class SolutionMultiMap
     {
-        public static void Main()
+        public static void Solve()
         {
             using (var input = new StreamReader("multimap.in"))
             {
