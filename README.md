@@ -37,3 +37,10 @@
 3. [Правильная скобочная последовательность](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/DataStructures/CorrectBracketSequence.cs)
 4. [Постфиксная запись](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/DataStructures/PostfixNotation.cs)
 5. [Приоритетная очередь](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/DataStructures/PriorityQueue.cs)
+
+## [Лабораторная работа №5](http://neerc.ifmo.ru/teaching/disalgo/problems/problems5.pdf)
+
+1. [Set](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/HashTables/MySet.cs)
+2. [Map](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/HashTables/MyMap.cs)
+3. [LinkedMap](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/HashTables/MyLinkedMap.cs)
+4. [MultiMap](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/HashTables/MyMultiMap.cs)
