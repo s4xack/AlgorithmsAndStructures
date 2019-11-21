@@ -44,3 +44,10 @@
 2. [Map](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/HashTables/MyMap.cs)
 3. [LinkedMap](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/HashTables/MyLinkedMap.cs)
 4. [MultiMap](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/HashTables/MyMultiMap.cs)
+
+## [Лабораторная работа №6](http://neerc.ifmo.ru/teaching/disalgo/problems/problems6.pdf)
+
+1. [Высота дерева](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/BST/BstHeight.cs)
+2. [Проверка корректности](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/BST/IsBst.cs)
+3. [Простое двоичное дерево поиска](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/BST/Bst.cs)
+4. [Интерпретатор языка Quack](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/Quack/QuackInterpreter.cs)
