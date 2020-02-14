@@ -10,7 +10,7 @@
 
 ### [Лабораторная работа №1](http://neerc.ifmo.ru/teaching/disalgo/problems/problems1.pdf)
 
-1. [a + b](AlgorithmsAndStructures/SimpleTasks/AplusB.cs)
+1. [a + b](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SimpleTasks/AplusB.cs)
 2. [a + b^2](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SimpleTasks/AplusBB.cs)
 3. [Черепашка](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SimpleTasks/Turtle.cs)
 4. [Простая сортировка](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SimpleTasks/SimpleSort.cs)
