@@ -11,4 +11,10 @@
     </Compile>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="bipartite.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
