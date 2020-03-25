@@ -68,3 +68,12 @@
 4. [Компоненты связнности](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/Components.cs)
 5. [Кратчайшие пути в невзвешенном графе](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/Distances.cs)
 6. [Лабиринт](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/Labyrinth.cs)
+
+### [Лабораторная работа №9](http://neerc.ifmo.ru/teaching/disalgo/problems/problems9.pdf)
+
+1. [Топологическая сортировка](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/TopSort.cs)
+2. [Поиск цикла](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/Cycle.cs)
+3. [Двудольный граф](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/BipartiteGraph.cs)
+4. [Конденсация графа](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/Condensation.cs)
+5. [Гамильтонов путь](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/HamiltonianPath.cs)
+6. [Игра](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/Game.cs)
