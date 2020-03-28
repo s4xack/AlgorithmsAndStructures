@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <vector>
 #include <algorithm>
 #include <fstream>
@@ -180,7 +180,7 @@ void markComponents(int64 from, const edgesLists& graph, vector<int64>& componen
 
 
 
-int main()
+int solve()
 {
 	ifstream fin("chinese.in");
 	ofstream fout("chinese.out");
