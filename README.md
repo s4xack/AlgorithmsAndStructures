@@ -27,7 +27,7 @@
 ### [Лабораторная работа №3](http://neerc.ifmo.ru/teaching/disalgo/problems/problems3.pdf)
 
 1. [Двоичный поиск](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/BinarySearch/BinarySearch.cs)
-2. [Гирлянда](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/BinarySearch/Garland.cs) [*(C++)*](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/BinarySearch/Garland.cpp)
+2. [~Гирлянда~](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/BinarySearch/Garland.cs) [*(C++)*](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/BinarySearch/Garland.cpp)
 3. [Пирамида ли?](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/DataStructures/IsHeap.cs)
 4. [Пирамидальная сортировка](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/HeapSort.cs)
 5. [Цифровая сортировка](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/SortingAlgorithms/RadixSort.cs)
@@ -77,3 +77,10 @@
 4. [Конденсация графа](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/Condensation.cs)
 5. [Гамильтонов путь](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/HamiltonianPath.cs)
 6. [Игра](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/Game.cs)
+
+### [Лабораторная работа №10](http://neerc.ifmo.ru/teaching/disalgo/problems/problems10.pdf)
+
+1. [Степени вершин](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/VertexDegree.cs)
+2. [Остовное дерево](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/MstPoints.cs)
+3. [Остовное дерево 3](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/Mst.cs)
+4. [~Алгоритм двух китайцев~](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/TwoChinese.cs) [*(C++)*](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/TwoChinese.cpp)*
