@@ -93,4 +93,4 @@
 2. [Кратчайший путь от каждой вершины до каждой](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/Floyd.cpp)
 3. [Кратчайший путь](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/Dijkstra.cpp)
 4. [Кратчайшие пути и прочее](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/Ford.cpp)
-5. [Цикл отричательного веса](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/NegativeCycle.cpp)
+5. [~Цикл отричательного веса~](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/NegativeCycle.cpp) **(WA 14)**
