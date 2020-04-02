@@ -2,11 +2,12 @@
 #include <set>
 #include <vector>
 #include <fstream>
+#include <algorithm>
 
 using namespace std;
 
 typedef long long int64;
-const int64 inf = 9223372036854775806;
+const int64 inf = 8e18;
 
 struct Edge
 {
@@ -19,57 +20,60 @@ struct Edge
 
 typedef vector<vector<Edge>> edgesLists;
 
-vector<int64> Ford(int v, int n, const vector<Edge>& edges)
+void Dfs(int from, const vector<vector<int>>& graph, vector<bool>& used)
 {
+	used[from] = true;
+	for (auto to : graph[from])
+	{
+		if (!used[to])
+			Dfs(to, graph, used);
+	}
+}
+
+vector<int64> Ford(int v, const vector<Edge>& edges, const vector<vector<int>>& graph)
+{
+	int n = graph.size();
 	vector<int64> dist(n, inf);
+	vector<int> parents(n, -1);
+	int lastChanged;
 	dist[v] = 0;
-	for (int i = 0; i < n - 1; ++i)
+	for (int i = 0; i < n; ++i)
 	{
+		lastChanged = -1;
 		for (auto edge : edges)
 		{
 			if (dist[edge.from] < inf)
 			{
-				int64 newDist;
-				if (dist[edge.from] > 0 || dist[edge.from] + inf > -edge.weight)
-					newDist = dist[edge.from] + edge.weight;
-				else
-					newDist = -inf;
-				if (dist[edge.to] > newDist || newDist == -inf)
+				if (dist[edge.to] > dist[edge.from] + edge.weight)
 				{
-					dist[edge.to] = newDist;
+					dist[edge.to] = max(-inf, dist[edge.from] + edge.weight);
+					parents[edge.to] = edge.from;
+					lastChanged = edge.to;
 				}
 			}
 		}
 	}
-	set<int> neg;
-	for (int i = 0; i < n * 20; ++i)
+
+	if (lastChanged != -1)
 	{
-		for (auto edge : edges)
+		for (int i = 0; i < n; ++i)
+			lastChanged = parents[lastChanged];
+
+		vector<bool> used(n);
+		Dfs(lastChanged, graph, used);
+
+		for (int i = 0; i < n; ++i)
 		{
-			if (dist[edge.from] < inf)
-			{
-				int64 newDist;
-				if (dist[edge.from] > 0 || dist[edge.from] + inf > -edge.weight)
-					newDist = dist[edge.from] + edge.weight;
-				else
-					newDist = -inf;
-				if (dist[edge.to] > newDist || newDist == -inf)
-				{
-					dist[edge.to] = newDist;
-					neg.insert(edge.to);
-				}
-			}
+			if (used[i])
+				dist[i] = -inf;
 		}
 	}
-	for (auto v : neg)
-	{
-		dist[v] = -inf;
-	}
+	
 	return dist;
 }
 
 
-int solve()
+int main()
 {
 	ifstream fin("path.in");
 	ofstream fout("path.out");
@@ -79,14 +83,16 @@ int solve()
 
 	int64 from, to, weight;
 	vector<Edge> edges;
+	vector<vector<int>> graph(n);
 
 	for (int i = 0; i < m; ++i)
 	{
 		fin >> from >> to >> weight;
 		edges.emplace_back(from - 1, to - 1, weight);
+		graph[from - 1].push_back(to - 1);
 	}
 
-	for (auto dist : Ford(s, n, edges))
+	for (auto dist : Ford(s, edges, graph))
 	{
 		switch (dist)
 		{
@@ -104,4 +110,5 @@ int solve()
 
 	fout << '\n';
 
+	return 0;
 }

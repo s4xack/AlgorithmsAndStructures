@@ -99,4 +99,5 @@ int solve()
 
 	fout << '\n';
 
+	return 0;
 }

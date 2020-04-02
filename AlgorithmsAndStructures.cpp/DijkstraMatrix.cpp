@@ -66,4 +66,6 @@ int solve()
 	}
 	fout << Dijkstra(s, f, graph) << "\n";
 
+
+	return 0;
 }

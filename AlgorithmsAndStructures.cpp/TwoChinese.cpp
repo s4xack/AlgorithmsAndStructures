@@ -206,4 +206,5 @@ int solve()
 	{
 		fout << "NO\n";
 	}
+	return 0;
 }

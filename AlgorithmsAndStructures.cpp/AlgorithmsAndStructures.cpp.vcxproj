@@ -27,6 +27,9 @@
     <ClCompile Include="NegativeCycle.cpp" />
     <ClCompile Include="TwoChinese.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="path.in" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{508C3440-B04C-4A1F-8E4B-9538699AB86A}</ProjectGuid>
