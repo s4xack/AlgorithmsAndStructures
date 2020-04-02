@@ -21,7 +21,7 @@
   <ItemGroup>
     <ClCompile Include="Dijkstra.cpp" />
     <ClCompile Include="DijkstraMatrix.cpp" />
-    <ClCompile Include="FLoyd.cpp" />
+    <ClCompile Include="Floyd.cpp" />
     <ClCompile Include="Ford.cpp" />
     <ClCompile Include="Garland.cpp" />
     <ClCompile Include="NegativeCycle.cpp" />
