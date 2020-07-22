@@ -73,7 +73,7 @@ vector<int64> Ford(int v, const vector<Edge>& edges, const vector<vector<int>>& 
 }
 
 
-int main()
+int solve()
 {
 	ifstream fin("path.in");
 	ofstream fout("path.out");
