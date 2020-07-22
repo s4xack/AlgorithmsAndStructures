@@ -1,10 +1,11 @@
-# Algorithms and structures
+# Алгоритмы и структуры данных
 
-Здесь размещены решения задач для **PCMS2**
+Здесь размещены решения задач для **PCMS2**. Все решения получили вердикт **OK** во воремя тестирования.
+Все задачи за исключением отмеченных выполнены на **C#**/
 
-Чтобы сдать задачу в систему, необходимо в файле с классом решения переименовать имя метода **Solve** на **Main**.
-
-К задачам с правильно написанным алгоритмом на **C#**, но не принятым тестируюшей системой, прилагается дополнительная ссылка на код на **C++** сданный в систему на вердикт *OK*.
+Чтобы сдать задачу в систему, необходимо:
+* *C#*: в файле с классом решения переименовать метод с **Solve** на **Main**.
+* *C++*: в файле с решение переименовать функцию с **solve** на **main**.
 
 ## Первый семестр
 
@@ -79,14 +80,19 @@
 1. [Степени вершин](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/VertexDegree.cs)
 2. [Остовное дерево](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/MstPoints.cs)
 3. [Остовное дерево 3](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/Mst.cs)
-4. [~Алгоритм двух китайцев~](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/TwoChinese.cs) [*(C++)*](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/TwoChinese.cpp)*
+4. [~Алгоритм двух китайцев~](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/GraphAlgorithms/TwoChinese.cs) [*(C++)*](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/TwoChinese.cpp)
 
-### [Лабораторная работа №11](http://neerc.ifmo.ru/teaching/disalgo/problems/problems11.pdf)
-
-Данная лабораторная работа выполнена полностью на **C++** :(
+### [Лабораторная работа №11](http://neerc.ifmo.ru/teaching/disalgo/problems/problems11.pdf) (С++)
 
 1. [Кратчайший путь](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/DijkstraMatrix.cpp)
 2. [Кратчайший путь от каждой вершины до каждой](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/Floyd.cpp)
 3. [Кратчайший путь](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/Dijkstra.cpp)
-4. [Кратчайшие пути и прочее](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/Ford.cpp)
+4. [~Кратчайшие пути и прочее~](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/Ford.cpp) *(tests upd)*
 5. [Цикл отричательного веса](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/NegativeCycle.cpp)
+
+### [Лабораторная работа №13](http://neerc.ifmo.ru/teaching/disalgo/problems/problems13.pdf) (С++)
+
+1. [Наивный поиск подстроки в строке](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/SubStringSearch.cpp)
+2. [Быстрый поиск подстроки в строке](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/SubStringSearch.cpp)
+3. [Префикс-функция](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/PrefixFunction.cpp)
+4. [Автомат КМП](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures.cpp/KmpMachine.cpp)
