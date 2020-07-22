@@ -24,7 +24,10 @@
     <ClCompile Include="Floyd.cpp" />
     <ClCompile Include="Ford.cpp" />
     <ClCompile Include="Garland.cpp" />
+    <ClCompile Include="KmpMachine.cpp" />
     <ClCompile Include="NegativeCycle.cpp" />
+    <ClCompile Include="PrefixFunction.cpp" />
+    <ClCompile Include="SubStringSearch.cpp" />
     <ClCompile Include="TwoChinese.cpp" />
   </ItemGroup>
   <ItemGroup>
