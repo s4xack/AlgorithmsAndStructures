@@ -54,10 +54,6 @@
 3. [Простое двоичное дерево поиска](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/BST/Bst.cs)
 4. [Интерпретатор языка Quack](https://github.com/s4xack/AlgorithmsAndStructures/blob/master/AlgorithmsAndStructures/Quack/QuackInterpreter.cs)
 
-### [Лабораторная работа №7](http://neerc.ifmo.ru/teaching/disalgo/problems/problems7.pdf)
-
-Не выполнена по причине ненадобности и лени **xd**
-
 ## Второй семестр
 
 ### [Лабораторная работа №8](http://neerc.ifmo.ru/teaching/disalgo/problems/problems8.pdf)
